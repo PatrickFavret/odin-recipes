@@ -34,29 +34,32 @@ ul {
     margin: auto;
     padding: 0;
 }
+
 li {
-    display: block;
+    display: inline-block;
+    width: 22em;
     margin: auto;
+    height: 22em;
     padding: 10px;
-    width: 200px;
+
+    text-align: center;
+    background-color: #caf0f8ff;
+
     border-width: 2.5px;
     border-style: solid;
     border-color: #0077b6ff;
-    text-align: center;
-    background-color: #caf0f8ff;
 }
 
 a {
-    display: block;
     font-size: 20px;
-    font-family:Verdana, Tahoma, sans-serif
+    font-family:Verdana, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 img {
-    display: inline-block;
-    width: 150px;
+    width: 12em;
     padding: auto;
-    height: 150px;
+    height: 12em;
     margin: 20px;
 
     border-width: 2.5px;
