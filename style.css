@@ -1,10 +1,10 @@
-/* CSS HEX */
+/* CSS HEX 
 --federal-blue: #03045eff;
 --honolulu-blue: #0077b6ff;
 --pacific-cyan: #00b4d8ff;
 --non-photo-blue: #90e0efff;
 --light-cyan: #caf0f8ff;
-
+*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -25,4 +25,41 @@ h1 {
     color: #03045eff;
     text-align: center;
     background-color: #caf0f8ff;
+    font-family:Verdana, Tahoma, sans-serif
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+li {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: #0077b6ff;
+    text-align: center;
+    background-color: #caf0f8ff;
+}
+
+a {
+    display: block;
+    font-size: 20px;
+    font-family:Verdana, Tahoma, sans-serif
+}
+
+img {
+    display: inline-block;
+    width: 150px;
+    padding: auto;
+    height: 150px;
+    margin: 20px;
+
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: #0077b6ff;
 }
